@@ -26,7 +26,7 @@ nav {
   width: 100%;
   position: fixed;
   top: 0;
-  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.256);
+  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.107);
   z-index: 1;
 }
 
@@ -357,18 +357,20 @@ a {
 #first-section .right-side .btn-round {
   display: flex;
   gap: 15px;
+  align-items: center;
 }
 #first-section .right-side p {
   line-height: 2em;
 }
 #first-section .right-side .btn-round a {
   background: rgb(27, 158, 214);
-  padding: 10px 20px 0px;
+  padding: 10px 20px ;
   border-radius: 20px;
   color: white;
 }
 #first-section .right-side .btn-round img {
-  width: 40px;
+  width: 35px;
+  height: 35px;
 }
 #first-section .right-side .btn-round img:hover {
   outline: 2px solid rgb(1, 135, 252);
